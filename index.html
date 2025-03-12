@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naylakirana</title>
+    <link rel="stylesheet" href="portofolio.css"> 
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">NAYLA KIRANA PUTRI</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#competence">Competence</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">Assignment</a>
+                    <ul class="dropdown">
+                        <li><a href="sejarah.html">Sejarah</a></li>
+                        <li><a href="pipas.html">Pipas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <article>
+               <div class="profile-container">
+                <img src="IMG_0802.JPG" alt="FotoNayla" class="fotoprofile">
+                <p class="greeting">Hello!
+                    <br>
+                    Welcome to web portofolio
+                    <br>
+                </p>
+               </div>
+            </article>
+        </aside>
+    </main>
+
+    <div>
+        <article id="about" class="card">
+            <h2>About</h2>
+            <p>Hello, my name is Nayla Kirana, my daughter was born on June 23 2008, I come from Indonesia, I am a
+                student at SMK Wikrama Bogor, my hobby is singing and playing music
+            </p>
+        </article>
+    </div>
+
+    <div>
+        <article id="competence" class="card">
+            <h2>Competence</h2>
+            <div class="certificates">
+                <div class="certificate-item">
+                    <img src="Screenshot (324).png" alt="sertifikatK3" class="sertifikat1">
+                    <p>Sertifikat K3</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="Screenshot (326).png" alt="sertifikatLDK" class="sertifikat2">
+                    <p>Sertifikat LDK</p>
+                </div>
+                <div class="certificate-item">
+                    <img src="Screenshot (372).png" alt="sertifikatDicoding" class="sertifikat3">
+                    <p>Sertifikat Dicoding</p>
+                </div>
+            </div>
+        </article>
+    </div>
+
+    <div>
+        <article id="contact" class="card">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="ContactForm_contact-form-name">Name</label>
+                <input id="ContactForm_contact-form-name" name="name" type="text" required>
+
+                <label for="ContactForm_contact-form-email">Email</label>
+                <input id="ContactForm_contact-form-email" name="email" type="email" required>
+
+                <label for="ContactForm_contact-form-message">Message</label>
+                <input id="ContactForm_contact-form-message" name="message" type="message" required>
+
+                <input id="ContactForm_contact-form-submit" type="submit" value="Send"
+                    onclick="alert('Silahkan isi pesan!')">
+            </form>
+        </article>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <h5 style="color: #040817;">&copy naylakirana - 2024</h5>
+        </div>
+    </footer>
+</body>
+</html>

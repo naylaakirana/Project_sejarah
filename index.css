@@ -1,0 +1,233 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(60, 45, 45);
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(211, 199, 199);
+    backdrop-filter: blur(50px);
+    justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    color: white;
+}
+
+header ul li {
+    justify-content: flex-start;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+header ul li a:hover {
+    color: #f9f5f5;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(211, 199, 199);
+    min-width: 160px;
+    z-index: 1;
+    padding: 10px 0;
+}
+
+.dropdown li {
+    display: block;
+}
+
+.dropdown li a {
+    padding: 10px 20px;
+    color: rgb(60, 45, 45);
+}
+
+header ul li:hover .dropdown {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+aside {
+    text-align: center;
+}
+
+.fotoprofile {
+    display:block;
+    margin: 0 auto;
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: blue;
+}
+
+.profile-container {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.greeting {
+    margin-left: 50px; /* Memberikan jarak antara gambar dan teks */
+    font-size: 36px; /* Ukuran font untuk teks "Hello!" menjadi lebih besar */
+    color: rgb(60, 45, 45); /* Warna teks sesuai dengan tema */
+    font-weight: bold; /* Menebalkan teks */
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+
+
+p {
+    text-decoration: double;
+    margin: 20px;
+    font-style: oblique;
+}
+
+.certificates {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10%;
+}
+
+.certificates-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sertifikat1, .sertifikat2, .sertifikat3 {
+    width: 300px; 
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.study1 {
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-right: 70%;
+} 
+
+.study2 {
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0%;
+} 
+
+.study3 {
+    width: 25%;
+    height: 25%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 70%;
+} 
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px ;
+    background-color: rgb(211, 199, 199);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#ContactForm_contact-form-name,
+#ContactForm_contact-form-email {
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition: all 0.5s ease-out;
+}
+
+#ContactForm_contact-form-message {
+    width: 100%;
+    height: 50px;
+    margin: 5px auto;
+    padding: 10px;
+    background-color: #fff;
+    color: #444;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    transition: all 0.5s ease-out;
+}
+
+#ContactForm_contact-form-submit {
+    width: 100%;
+    height: 60px;
+    background-color: #441101;
+    color: rgb(255, 255, 255);
+    margin: 10px auto;
+    vertical-align: middle;
+    padding: 10px 18px;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    width: 100%;
+    height: 5px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: #444;
+    text-align: center;
+    font-weight: bold;
+}
